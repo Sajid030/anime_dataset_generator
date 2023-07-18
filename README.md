@@ -27,9 +27,9 @@ This project aims to generate an anime dataset by utilizing the Jikan API. It re
    
    There are total 4 python files and they are:-
 
-   ## - anime_dataset.py
+   ## anime_dataset.py
      
-     The script will fetch anime data and save it in a CSV file specified by the output_file variable.
+     The script will fetch anime data and save it in a CSV file specified by the output_file variable. In this I have used 
 
      The generated anime dataset (anime_dataset.csv) will contain the following columns:
      - `animeID`: Unique identifier for each anime
@@ -60,7 +60,6 @@ This project aims to generate an anime dataset by utilizing the Jikan API. It re
      - `start_id`: Starting anime ID
      - `end_id`: Ending anime ID
      - `output_file`: Output file name (default: anime_dataset.csv)
-
 
       Run the script to generate the anime dataset:
       ```
