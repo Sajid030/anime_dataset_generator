@@ -1,6 +1,9 @@
 # 🌟📊 Anime Dataset Generator 🎬📚
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white&color=blue)](https://www.python.org/)
+![Requests](https://img.shields.io/badge/requests-2.27.1-green?style=for-the-badge&logoColor=white)
+![BeautifulSoup](https://img.shields.io/badge/beautifulsoup-4.11.2-white?style=for-the-badge&logoColor=white)
+[![Jikan](https://img.shields.io/badge/jikan-4.0.0-darkblue?style=for-the-badge&logoColor=white)](https://jikan.moe/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logoColor=white&color=blue,yellow)](https://opensource.org/licenses/MIT)
 
 This project aims to generate an anime dataset by utilizing the 🚀 [Jikan API (4.0.0)](https://docs.api.jikan.moe/). It retrieves information about anime such as title, score, genres, synopsis, producers, studios, and more. Additionally, it includes functionality to generate a list of usernames from MyAnimeList and fetch user details and anime scores for those usernames. By using these scripts together, you can generate a comprehensive anime dataset that includes information about both individual anime and user-specific scores and details. This dataset can be used for various purposes, such as analysis, recommendation systems, or building anime-related applications.
 
@@ -140,4 +143,4 @@ This project aims to generate an anime dataset by utilizing the 🚀 [Jikan API 
 
 ## License
 
-📝 This project is licensed under the [MIT License](LICENSE). You are free to modify and use the code in accordance with the terms and conditions of the license. Feel free to adapt the project to suit your needs and contribute to open-source development. 📜🔒
+📝 This project is licensed under the [MIT License](LICENSE.md). You are free to modify and use the code in accordance with the terms and conditions of the license. Feel free to adapt the project to suit your needs and contribute to open-source development. 📜🔒
