@@ -25,11 +25,11 @@ This project aims to generate an anime dataset by utilizing the [Jikan API (4.0.
    ```
    pip install requests beautifulsoup4 
    ```
-3. Run the 4 python files:
+3. Run the Python scripts:
    
    There are total 4 python files and their functions are:-
 
-   ## Anime Details Generator
+   ## Anime Details Generator📚📝
 
      This Python script `anime_dataset.py` allows you to generate an anime dataset by utilizing the Jikan API. It fetches anime information such as title, score, genres, synopsis, producers, studios, and more. The data is then stored in a CSV file `anime_dataset.csv` for further analysis and use.
 
@@ -72,7 +72,7 @@ This project aims to generate an anime dataset by utilizing the [Jikan API (4.0.
       python anime_dataset.py
       ```
      
-   ## User List Generator
+   ## User List Generator👥📝
 
      This Python script `username_dataset.py` allows you to generate a list of users by utilizing the Jikan API. It retrieves user information such as username and user URL for a specified range of user IDs. The user details are then stored in a CSV file `userlist.csv`. These usernames will be used in the subsequent scripts to fetch user-specific anime scores and details.
 
@@ -91,7 +91,7 @@ This project aims to generate an anime dataset by utilizing the [Jikan API (4.0.
       python username_dataset.py
       ```
 
-   ## User Scores Fetcher
+   ## User Scores Fetcher📊🎯
 
       This Python script `user_scores_dataset.py` integrates the user list generated from the userlist.py script with the anime scoring data fetched from MyAnimeList.       It retrieves the anime scores for each user in the user list and stores the data in a CSV file `user_score.csv` for further analysis and use.
 
@@ -116,7 +116,7 @@ This project aims to generate an anime dataset by utilizing the [Jikan API (4.0.
       python user_score_dataset.py
       ```
 
-   ## User Details Fetcher
+   ## User Details Fetcher👤📊
    
       This Python script `user_details_dataset.py` fetches detailed information for a list of usernames from MyAnimeList using the Jikan API. It retrieves user-      specific data such as gender, birthday, location, join date, anime statistics, and more. The fetched user details are then stored in a CSV file               `user_details.csv` for further analysis and use.
 
@@ -134,5 +134,10 @@ This project aims to generate an anime dataset by utilizing the [Jikan API (4.0.
       11. The script calculates the elapsed time and usernames fetched per second to provide performance metrics.
       12. Finally, it saves the user details to the user_details.csv file, including the headers and the fetched user data.
 
+## Contributing
 
-   
+🙌 Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an [issue](https://github.com/Sajid030/anime_dataset_generator/issues) or submit a [pull request](https://github.com/Sajid030/anime_dataset_generator/pulls). Your contributions can help enhance the functionality and usability of this project. Together, we can make it even better! 👍🎉
+
+## License
+
+📝 This project is licensed under the [MIT License](LICENSE). You are free to modify and use the code in accordance with the terms and conditions of the license. Feel free to adapt the project to suit your needs and contribute to open-source development. 📜🔒
