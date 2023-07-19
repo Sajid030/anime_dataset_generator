@@ -29,8 +29,7 @@ This project aims to generate an anime dataset by utilizing the Jikan API. It re
 
    ## Anime Details Generator
 
-     This Python script `anime_dataset.py` allows you to generate an anime dataset by utilizing the Jikan API. It fetches anime information such as title, score, 
-     genres, synopsis, producers, studios, and more. The data is then stored in a CSV file `anime_dataset.csv` for further analysis and use.
+     This Python script `anime_dataset.py` allows you to generate an anime dataset by utilizing the Jikan API. It fetches anime information such as title, score, genres, synopsis, producers, studios, and more. The data is then stored in a CSV file `anime_dataset.csv` for further analysis and use.
 
      #### How it Works:-
 
@@ -73,8 +72,7 @@ This project aims to generate an anime dataset by utilizing the Jikan API. It re
      
    ## User List Generator
 
-     This Python script `username_dataset.py` allows you to generate a list of users by utilizing the Jikan API. It retrieves user information such as username and 
-     user URL for a specified range of user IDs. The user details are then stored in a CSV file `userlist.csv` for further analysis and use.
+     This Python script `username_dataset.py` allows you to generate a list of users by utilizing the Jikan API. It retrieves user information such as username and user URL for a specified range of user IDs. The user details are then stored in a CSV file `userlist.csv` for further analysis and use.
 
       #### How it Works:-
 
@@ -118,34 +116,21 @@ This project aims to generate an anime dataset by utilizing the Jikan API. It re
 
    ## User Details Fetcher
    
-      This Python script `user_details_dataset.py` fetches detailed information for a list of usernames from MyAnimeList using the Jikan API. It retrieves user- 
-      specific data such as gender, birthday, location, join date, anime statistics, and more. The fetched user details are then stored in a CSV file                
-      `user_details.csv` for further analysis and use.
+      This Python script `user_details_dataset.py` fetches detailed information for a list of usernames from MyAnimeList using the Jikan API. It retrieves user-      specific data such as gender, birthday, location, join date, anime statistics, and more. The fetched user details are then stored in a CSV file               `user_details.csv` for further analysis and use.
 
       #### How it Works:-
-The script reads a list of usernames from the userlist.csv file, which should be generated using the userlist.py script.
-
-It prepares the headers for the user_details.csv file, specifying the columns for each user detail.
-
-The script initializes variables to keep track of the progress, fetch count, and total usernames.
-
-It sets the batch size and delay between batches to manage the API requests and prevent overwhelming the servers.
-
-The script iterates over the list of usernames in batches.
-
-For each batch, it sends API requests to fetch the detailed user information using the Jikan API.
-
-If the API response is successful (status code 200), the script extracts the relevant user details from the JSON response.
-
-The fetched user details are stored in a list of lists, where each inner list contains the user details in the specified order.
-
-The script tracks the fetch count and total usernames processed, displaying the progress periodically.
-
-It also incorporates a batch delay to introduce a pause between batches to comply with API usage guidelines.
-
-The script calculates the elapsed time and usernames fetched per second to provide performance metrics.
-
-Finally, it saves the user details to the user_details.csv file, including the headers and the fetched user data.
+      1. The script reads a list of usernames from the userlist.csv file, which should be generated using the userlist.py script.
+      2. It prepares the headers for the user_details.csv file, specifying the columns for each user detail.
+      3. The script initializes variables to keep track of the progress, fetch count, and total usernames.
+      4. It sets the batch size and delay between batches to manage the API requests and prevent overwhelming the servers.
+      5. The script iterates over the list of usernames in batches.
+      6. For each batch, it sends API requests to fetch the detailed user information using the Jikan API.
+      7. If the API response is successful (status code 200), the script extracts the relevant user details from the JSON response.
+      8. The fetched user details are stored in a list of lists, where each inner list contains the user details in the specified order.
+      9. The script tracks the fetch count and total usernames processed, displaying the progress periodically.
+      10. It also incorporates a batch delay to introduce a pause between batches to comply with API usage guidelines.
+      11. The script calculates the elapsed time and usernames fetched per second to provide performance metrics.
+      12. Finally, it saves the user details to the user_details.csv file, including the headers and the fetched user data.
 
 
    
