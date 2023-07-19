@@ -137,6 +137,11 @@ This project aims to generate an anime dataset by utilizing the 🚀 [Jikan API 
       11. The script calculates the elapsed time and usernames fetched per second to provide performance metrics.
       12. Finally, it saves the user details to the user_details.csv file, including the headers and the fetched user data.
 
+      Run the script to generate the anime list:
+      ```
+      python user_details_dataset.py
+      ```
+
 ## Contributing
 
 🙌 Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an [issue](https://github.com/Sajid030/anime_dataset_generator/issues) or submit a [pull request](https://github.com/Sajid030/anime_dataset_generator/pulls). Your contributions can help enhance the functionality and usability of this project. Together, we can make it even better! 👍🎉
