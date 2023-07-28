@@ -110,7 +110,8 @@ This project aims to generate an anime dataset by utilizing the 🚀 [Jikan API 
       8. To prevent overwhelming the MyAnimeList servers, the script implements a delay between batches of user requests, randomly chosen within a specified range of           seconds.
       9. After processing all the users in the user list, the script prints a success message if anime scores were fetched successfully, or a failure message if no             scores were found.
    
-      `NOTE` :- There are some users who have chose to hide their list so score list of those users can't be fetched for obvious reason and I have not included those users that have not rated any anime i.e. they have animes in their animelist page but still not rated them.
+      `NOTE` :- There are some users who have chose to hide their list so score list of those users can't be fetched for obvious reason and *I have not included those users that have not rated any anime i.e. they have animes in their animelist page but still not rated them.*
+   
       Also I was trying to fetch the score list using `jikan`. Using jikan v4 we can now fetch each user's anime scores . However, the issue with the Jikan API was          that it only fetched scores for users who had rated a limited number of anime (usually 4-5), skipping users who had rated more than that. Maybe they can resolve 
       the issue in future so you can also use jikan to do the same.
 
