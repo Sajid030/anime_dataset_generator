@@ -36,6 +36,8 @@ This project aims to generate an anime dataset by utilizing the 🚀 [Jikan API 
 
      This Python script `anime_dataset.py` allows you to generate an anime dataset by utilizing the Jikan API. It fetches anime information such as title, score, genres, synopsis, producers, studios, and more. The data is then stored in a CSV file `anime_dataset.csv` for further analysis and use.
 
+    ### Explore my dataset on Kaggle: [MyAnimeList Dataset](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset)
+
      #### How it Works 🎯
 
      1. Specify the range of anime IDs you want to retrieve by setting the `start_id` and `end_id` variables.
