@@ -63,7 +63,7 @@ def scrape_user_profile(username, user_id, status_code):
 
 
 def fetch_user_scores():
-    with open('userlist.csv', 'r', newline='', encoding='utf-8') as file:
+    with open('userlist/userlist.csv', 'r', newline='', encoding='utf-8') as file:
         reader = csv.DictReader(file)
         rows = list(reader)
         usernames = [row['username'] for row in rows]

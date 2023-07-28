@@ -2,7 +2,7 @@ import csv
 import requests
 import json
 
-output_file = 'userlist.csv'
+output_file = 'userlist/userlist.csv'
 
 start_id = 1  # Starting user ID
 end_id = 10  # Ending user ID

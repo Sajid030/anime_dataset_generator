@@ -4,7 +4,7 @@ import time
 
 # Read usernames from CSV file
 usernames = []
-with open("userlist.csv", "r") as file:
+with open("userlist/userlist.csv", "r") as file:
     reader = csv.DictReader(file)
     for row in reader:
         usernames.append(row["username"])
