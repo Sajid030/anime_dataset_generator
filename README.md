@@ -86,7 +86,7 @@ This project aims to generate an anime dataset by utilizing the 🚀 [Jikan API 
       3. It checks the response status code and retries the API call up to 5 times if it fails.
       4. If the response is successful (status code 200), the script parses the JSON response and extracts the user details such as username and user URL.
       5. The user details are stored as dictionaries in a list.
-      6. After processing all the user IDs in the specified range, the user details are written to the output CSV file.
+      6. After processing all the user IDs in the specified range, the user details are written to the output CSV file which is stored in the userlist folder.
       7. Finally, the script prints the total number of user data fetched.
 
       Run the script to generate the User list:
@@ -100,7 +100,7 @@ This project aims to generate an anime dataset by utilizing the 🚀 [Jikan API 
 
       #### How it Works 🎯
 
-      1. The script reads the user list from the `userlist.csv` file, which should be generated using the `username_dataset.py` script.
+      1. The script reads the user list from the `userlist.csv` file from the userlist folder, which should be generated using the `username_dataset.py` script.
       2. It iterates through the user list and calls the `scrape_user_profile()` function to fetch the anime scores for each user.
       3. The `scrape_user_profile()` function performs web scraping on the respective user's anime list page to extract the anime scores.
       4. It uses the BeautifulSoup library to parse the HTML response and extract relevant data.
@@ -124,7 +124,7 @@ This project aims to generate an anime dataset by utilizing the 🚀 [Jikan API 
       This Python script `user_details_dataset.py` fetches detailed information for a list of usernames from MyAnimeList using the Jikan API. It retrieves user-      specific data such as gender, birthday, location, join date, anime statistics, and more. The fetched user details are then stored in a CSV file               `user_details.csv` for further analysis and use.
 
       #### How it Works 🎯
-      1. The script reads a list of usernames from the userlist.csv file, which should be generated using the userlist.py script.
+      1. The script reads a list of usernames from the userlist.csv file from the userlist folder, which should be generated using the userlist.py script.
       2. It prepares the headers for the user_details.csv file, specifying the columns for each user detail.
       3. The script initializes variables to keep track of the progress, fetch count, and total usernames.
       4. It sets the batch size and delay between batches to manage the API requests and prevent overwhelming the servers.
